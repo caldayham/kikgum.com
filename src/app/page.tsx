@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import BuyButton from "@/components/BuyButton";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
           KIK Gum
         </h1>
         <p>All natural caffeinated gum with L-theanine and B vitamins.</p>
-        <p>For clean and simple energy on a busy schedule.</p>
+        <p>Clean energy and focus on a busy schedule.</p>
+
+        <BuyButton>Order Now!</BuyButton>
       </div>
     </main>
   );
